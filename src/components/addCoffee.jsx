@@ -34,7 +34,7 @@ const AddCoffee = () => {
                 if (data.insertedId) {
                     Swal.fire({
                         title: 'Success!',
-                        text: 'User Added Successfully',
+                        text: 'Coffee Added Successfully',
                         icon: 'success',
                         confirmButtonText: 'Good Job'
                     })
@@ -48,6 +48,7 @@ const AddCoffee = () => {
 
 
     return (
+
         <div className="bg-[#F4F3F0] p-24  ">
 
             <h2 className="text-3xl font-extrabold" >Add Coffee</h2>

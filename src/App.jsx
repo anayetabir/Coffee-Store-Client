@@ -1,5 +1,3 @@
-
-
 import { useLoaderData } from 'react-router-dom'
 import './App.css'
 import CoffeeCard from './components/CoffeeCard';
